@@ -67,11 +67,17 @@ public:
         } else {
             last->setConnect1(n);
             n->setConnect2(last);
+            n->setConnect1(first);
+            first->setConnect2(n);
         }
         last = n;
         NumberOfCities++;
     }
-  void connect
+  void connect(T cityfrom, T cityTo) {
+    if(Connect3 == nullptr) {
+
+    }
+  }
 
 };
 ```
