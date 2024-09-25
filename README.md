@@ -6,7 +6,7 @@ R/:
 1) Es necesario para poder aumentar la capacidad actual del vector para que asi los datos almacenados no estén dispersos en la memoria, por eso, tambien al momento de hacer un resize() se le asigna un nuevo espacio en la memoria al vector con un mayor tamaño para luego eliminar el vector anterior, asi, poder ahorrando tiempo. Y es necesario seguir ingresando datos  por el espacio que puede llegar a sobrar en vector, asi no se desperdiciará memoria.
 No es mejor ya que aumentaria la complejidad al estar buscando registros en diferentes lugares de la memoria. Además, como se dijo anterioremente, conlleva a un desgaste mayor de memoria
 que solo almacenando un arreglo en un espacio de memoria.
-2) 
+2) No creo que sea muy eficiente por el posible gasto de memoria que puede generar el vector, teniendo en cuenta que en las listas puedes controlar esa memoria por la cantidad de elementos que vayas agregando a pesar de que pueda consumir un poco mas de memoria 
 
 - Pregunta 2.
 
